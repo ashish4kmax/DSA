@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+string check_kthsetbit(int n,int k) {
+    if(n&(1<<k-1)) {
+        return "Yes";
+    }
+    else {
+        return "No";
+    }
+}
+
+int main() {
+    int n,k;
+    cout<<"Enter a number : ";
+    cin>>n;
+    cout<<"Enter the kth bit to be checked : ";
+    cin>>k;
+    cout<<check_kthsetbit(n,k);
+    return 0;
+}
