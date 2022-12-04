@@ -1,0 +1,5 @@
+1) Any program that can be done using iteration can also be done using recursion.
+
+2) Backtracking problems are inherently recursive cuz they are better in recursion than iterative.
+
+3) Searching for a file in our computer is an example of DFS problem (tree traversal).
